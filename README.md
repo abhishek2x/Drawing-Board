@@ -12,6 +12,9 @@
           
 <img src="images/2.png">
 
+***
+
+<img src="images/undraw_creativity_wqmm.svg">
 
 ***
 
