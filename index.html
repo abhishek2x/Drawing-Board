@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Canvas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="head">
+    <h1>Let's Draw</h1>
+    <button class="clear">Clear Board</button>
+</div>
+
+    <canvas id="draw"></canvas>
+    <script src="index.js"></script>
+    <style>
+        html,
+        body {
+            margin: 0;
+            background: #0f2027;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+        button {
+            display: block;
+            float: right;
+            background-color: #0f2027;
+            border: turquoise ;
+            color: white ;
+            margin-top: 20px;
+            height: 40px;
+        }
+
+        div.head{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        h1 {
+            margin: 0px; 
+            padding: 0px;
+            margin-left: 40px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 4em;
+            color: white;
+        }
+
+        canvas {
+            margin: 20px 40px;
+            border: solid rgb(124, 122, 122) 2px;
+            height: 80vh;
+            width: 90%;
+            background-color: azure;
+        }
+    </style>
+
+</body>
+
+</html>
